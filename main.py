@@ -195,4 +195,3 @@ async def not_found_handler(request, exc):
 @app.exception_handler(500)
 async def internal_error_handler(request, exc):
     return {"error": "Internal server error", "status_code": 500}
-echo. >> main.py
